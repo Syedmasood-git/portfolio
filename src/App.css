@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Koh+Santepheap&display=swap');
+*{
+    padding: 0;margin: 0;
+    font-family: 'Koh Santepheap', serif;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(252deg, rgba(241, 184, 210, 0.74) -4.03%, rgba(149, 187, 233, 0.79) 112.41%)
+}

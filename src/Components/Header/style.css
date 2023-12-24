@@ -1,0 +1,26 @@
+.logo{
+    margin: 1rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    margin-right: 1rem;
+}
+.header ul li{
+    list-style: none;
+    margin-inline: 1.5rem;
+    padding-inline: .5rem;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+}
+.header ul li:hover{
+    color: black;
+    transition:all ease;
+    scale: 1.1;
+}

@@ -1,0 +1,33 @@
+.container{
+    width: 85vw;
+    height: 60vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 6vh;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.line1{
+    border-bottom: 2px solid pink;
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    top: 106%;
+    right: -27%;
+    transform: rotate(-45deg);
+    z-index: 1;
+    overflow: hidden;
+}
+.line2{
+    border-bottom: 2px solid pink;
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    top: 70%;
+    right: -27%;
+    transform: rotate(-139deg);
+    z-index: 1;
+    overflow: hidden;
+}

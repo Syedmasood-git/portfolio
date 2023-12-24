@@ -1,0 +1,60 @@
+.home{
+    margin-inline: 4rem;
+    margin-top: 3rem;   
+    /* position: relative; */
+    overflow: hidden;
+}
+.home h2{
+    color:#3e3e3e;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.h1{
+    margin: 1rem 0 0 0;
+    color:#5c5c5c ;
+    font-size: 30px;
+    width: 45%;
+    font-weight:bolder;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.social-div{
+    margin-top: 2rem;
+    color: rgb(231, 185, 193);
+}
+.social{
+    margin-right: 1rem; 
+    font-size: 24px;
+    cursor: pointer;
+}
+.social:hover{
+    color: black;
+    transition: all ease .3s;
+    scale: 1.2;
+}
+.btn{
+    margin-top: 2rem;
+    padding: .6rem 1rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    font-size: 20px; 
+    border: none;
+    color: white;
+    background: linear-gradient(252deg, rgba(241, 184, 210, 0.74) -4.03%, rgba(149, 187, 233, 0.79) 112.41%)
+}
+.btn:hover{
+    color: rgb(255, 170, 184);
+    background: white;
+    border: 2px solid rgb(174, 154, 157);
+}
+/* .line1{
+    border-bottom: 2px solid rgb(196, 196, 196);
+    width: 40vw;
+    height: 20px;
+    position: absolute;
+    top: 9rem;
+    right: -9rem;
+    transform: rotate(-45deg);
+    z-index: 1;
+    overflow: hidden;
+} */
