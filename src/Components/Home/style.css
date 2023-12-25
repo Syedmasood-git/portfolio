@@ -49,14 +49,74 @@
     background: white;
     border: 2px solid rgb(174, 154, 157);
 }
-/* .line1{
-    border-bottom: 2px solid rgb(196, 196, 196);
-    width: 40vw;
-    height: 20px;
-    position: absolute;
-    top: 9rem;
-    right: -9rem;
-    transform: rotate(-45deg);
-    z-index: 1;
-    overflow: hidden;
-} */
+@media only screen and (max-width:1024px){
+    .h1{
+        font-size: 24px;
+    }
+    .home h2{
+        font-size: 16px;
+    }
+    .home{
+        margin-top: 1.5rem;
+    }
+    .social{
+        font-size: 20px;
+    }
+    .btn{
+        padding: .4rem .7rem;
+    }
+    .social-div{
+        margin-top: 1.3rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .h1{
+        font-size: 22px;
+        width: 60%;
+    }
+    .home h2{
+        font-size: 14px;
+    }
+    .home{
+        margin-top: 1.3rem;
+    }
+    .social{
+        font-size: 18px;
+    }
+    .btn{
+        padding: .4rem .7rem;
+    }
+    .social-div{
+        margin-top: 1.3rem;
+    }
+}
+@media only screen and (max-width:450px){
+    .h1{
+        font-size: 18px;
+        width: 80%;
+    }
+    .home h2{
+        font-size: 14px;
+    }
+    .home{
+        margin-top: 1rem;
+    }
+    .social{
+        font-size: 19px;
+    }
+    .btn{
+        padding: .2rem .5rem;
+    }
+    .social-div{
+        margin-top: 1.3rem;
+    }
+    .btn{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width:390px){
+    .home{
+        padding: 1rem;
+    }
+}

@@ -1,29 +1,127 @@
-.p-card{
-    background-color: white;
-    height: 30vh;
-    border-radius: 1.5rem;
-    padding: 2.5rem;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 3rem;
+.p-card {
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  gap: .5rem;
 }
-.portfolio{
-    margin-inline: 9rem;
+.portfolio {
+  margin-inline: 9rem;
 }
-.portfolio h1{
-    margin-bottom: 2rem;
-    padding: 0 1rem;
-    color: white;
+.portfolio h1 {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  color: white;
 }
 .p-left {
-width: 60%;
-color:#5c5c5c ;
+  width: 60%;
+  color: #5c5c5c;
 }
-.p-left h3{
-    font-size: 26px;
-    margin-bottom: 1.5rem;
+.p-btn{
+    margin-top: 2rem;
+    padding: .6rem 1rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    font-size: 20px; 
+    border: none;
+    color: white;
+    background: linear-gradient(252deg, rgba(241, 184, 210, 0.74) -4.03%, rgba(149, 187, 233, 0.79) 112.41%)
 }
-.p-left p{
-letter-spacing: .3px;
-line-height: 1.4
+.p-left h3 {
+  font-size: 26px;
+  margin-bottom: 1.5rem;
 }
+.p-left p {
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+}
+.p-right img {
+  width: 300px;
+  height: 200px;
+}
+@media only screen and (max-width: 1024px) {
+  .portfolio h1 {
+    font-size: 28px;
+  }
+  .p-left h3 {
+    font-size: 22px;
+    margin-bottom: .6rem;
+  }
+  .p-left p {
+    font-size: 14px;
+  }
+  .p-right img{
+    width: 270px;
+    height: 170px;
+  }
+  .p-btn{
+    margin-top: 1rem;
+    padding: .4rem .7rem;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .portfolio h1 {
+      font-size: 26px;
+    }
+    .p-left h3 {
+      font-size: 22px;
+      margin-bottom: .6rem;
+    }
+    .p-card{
+        padding: 1.5rem;
+    }
+    .p-left p {
+      font-size: 14px;
+    }
+    .p-right img{
+      width: 250px;
+      height: 160px;
+    }
+    .p-btn{
+      margin-top: 1rem;
+      padding: .4rem .7rem;
+      font-size: 16px;
+    }
+    .p-left p{
+        letter-spacing: .2px;
+        line-height: 1.3;
+    }
+    .portfolio{
+        margin-inline:5rem ;
+    }
+    .p-card{
+        height: fit-content;
+    }
+  }
+  @media only screen and (max-width:650px){
+    .p-card{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .p-left{
+        width:fit-content ;
+    }
+    .p-right img{
+        width: 350px;
+        height: 200px;
+    }
+  }
+  @media only screen and (max-width:450px){
+    .p-right img{
+        width: 230px;
+        height: 130px;
+    }
+  }
+  @media only screen and (max-width:390px){
+    .p-right img{
+        width: 190px;
+        height: 100px;
+    }
+    .portfolio{
+        margin-inline: 1rem;
+    }
+  }
