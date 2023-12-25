@@ -1,0 +1,29 @@
+.p-card{
+    background-color: white;
+    height: 30vh;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.portfolio{
+    margin-inline: 9rem;
+}
+.portfolio h1{
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    color: white;
+}
+.p-left {
+width: 60%;
+color:#5c5c5c ;
+}
+.p-left h3{
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+}
+.p-left p{
+letter-spacing: .3px;
+line-height: 1.4
+}

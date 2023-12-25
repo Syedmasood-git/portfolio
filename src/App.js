@@ -1,13 +1,17 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/Header";
-import BodyCard from "./Components/BodyCard";
+import BodyCard from "./BodyCard";
+import { animate, motion } from "framer-motion"
+import WhatIdo from "./Components/WhatIdo";
+import Portfolio from "./Components/Portfolio";
 
 const App = () => {
   return (
-    <div>
+    <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1.4}}>
       <BodyCard/>
-    </div>
+      <WhatIdo/>
+      <Portfolio/>
+    </motion.div>
   );
 };
 

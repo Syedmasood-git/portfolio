@@ -1,8 +1,9 @@
 .home{
-    margin-inline: 4rem;
+    padding-inline: 4rem;
     margin-top: 3rem;   
     /* position: relative; */
     overflow: hidden;
+    padding-bottom: 2rem;
 }
 .home h2{
     color:#3e3e3e;
@@ -27,6 +28,7 @@
     font-size: 24px;
     cursor: pointer;
 }
+
 .social:hover{
     color: black;
     transition: all ease .3s;

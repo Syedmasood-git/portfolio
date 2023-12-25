@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../Assets/logo.png'
 import './style.css'
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -10,10 +11,10 @@ const Header = () => {
       </div>
       <div>
         <ul>
-          <li>About</li>
-          <li>What i Do</li>
-          <li>Portfolio</li>
-          <li>Let's Talk</li>
+          <li><Link to="about" smooth={true} duration={500}>About</Link></li>
+          <li><Link to="whatIdo" smooth={true} duration={500}>What i Do</Link></li>
+          <li><Link to="portfolio" smooth={true} duration={500}>Portfolio</Link></li>
+          <li><a target='__blank' href='https://wa.me/7975332059'>Let's Talk</a></li>
         </ul>
       </div>
     </div>

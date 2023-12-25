@@ -8,6 +8,8 @@
     padding: 1rem;
     position: relative;
     overflow: hidden;
+    padding-bottom: 2rem;
+    box-shadow: 0px 0px 39px 0px rgba(179,179,179,1);
 }
 .line1{
     border-bottom: 2px solid pink;

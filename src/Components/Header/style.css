@@ -6,6 +6,10 @@
     justify-content: space-between;
     align-items: center;
 }
+a{
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+}
 ul{
     display: flex;
     margin-right: 1rem;
